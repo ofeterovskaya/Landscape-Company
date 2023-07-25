@@ -1,0 +1,33 @@
+.myliststyle{margin-top: -20px;}
+.mylist{display: inline;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.facebooktwitter{float:right;}
+.locationtext{ width: 58%; margin-top:-600px;float:right;color:#114A23; font-family:cursive;font-size:24px;}
+.service-area-map{width:40%; height:700px;}
+.footer{color:#006400;font-family:Arial ;font-size:16px;margin-top:1cm; margin-left: 700px;}
+
+
+
+
+@media (max-width:768px){
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.facebooktwitter{float:right;}
+.service-area-map{width:50%; height:400px;}
+.locationtext{ width:45%;float:right;margin-top:-350px;color:#114A23; font-family:cursive;font-size:18px;}
+.footer{display:none;}
+
+}
+
+@media (max-width:480px){
+
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.facebooktwitter{float:right;}
+.service-area-map{display:none;}
+.locationtext{ width:80%;margin-top:50px;color:#114A23; font-family:cursive;font-size:18px;}
+.footer{display:none;}
+
+}

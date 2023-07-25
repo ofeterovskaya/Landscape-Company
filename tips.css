@@ -1,0 +1,33 @@
+.myliststyle{margin-top: -20px;}
+.mylist{display: inline;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.facebooktwitter{float:right;}
+.tipstext{ width: 58%; margin-top:-750px;float:right;color:#114A23; font-family:cursive;font-size:20px;}
+.imgtips{width:40%; height:700px;}
+.footer{color:#006400;font-family:Arial ;font-size:16px;margin-top:1cm; margin-left: 700px;}
+
+
+
+
+@media (max-width:768px){
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.facebooktwitter{float:right;}
+.imglawnonepark{width:40%; height:700px;}
+.tipstext{ width:55%;color:#114A23; font-family:cursive;font-size:18px;}
+.footer{display:none;}
+
+}
+
+@media (max-width:480px){
+
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.facebooktwitter{float:right;}
+.imgtips{display:none;}
+.tipstext{ width:90%;margin:-30px;color:#114A23; font-family:cursive;font-size:18px;}
+.footer{display:none;}
+
+}

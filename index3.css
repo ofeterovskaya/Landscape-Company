@@ -1,0 +1,49 @@
+.myliststyle{margin-top: -20px;}
+.mylist{display: inline;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.section{width:380px; float:left;padding:10px;}
+.address{color:#076F2A;font-family:Arial;font-size:18px;}
+.doyouknow{color:#13AF47;font-family:Arial Black;font-size:16px;padding:80px;}
+.offer{width:380px; float:right;padding:10px;margin-top:-650px;}
+.callus{margin-left: 1600px; margin-top: -110px; color: #002E0F; font-style: italic; font-weight: bold; font-size: 22pt;}
+
+.imghappymowing{width:60%;height:680px;}
+.facebooktwitter{margin-left:300px;margin-top:-50px;width:80px;}
+.footer{color:#006400;font-family:Arial ;font-size:16px;margin-top: -50px; margin-left: 700px;}
+.imgbbb{width:150px;height:68px;}
+
+
+
+@media (max-width:768px){
+
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.section{display:none}
+.address{color:#076F2A;font-family:Arial;font-size:18px;}
+.doyouknow{display:none}
+.offer{width:380px; float:right;padding:10px;margin-top:-650px;}
+.callus{margin-left: 50px; margin-top:15px; color: #002E0F;font-style: italic;font-weight: bold;font-size: 20pt;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.imghappymowing{width:100%;height:500px;}
+.facebooktwitter{margin-left:300px;margin-top:-80px;width:80px;}
+.footer{color:#006400;font-family:Arial ;font-size:16px;margin-top:0cm; margin-left: 100px;}
+.imgbbb{display:none}
+}
+
+@media (max-width:480px){
+
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.section{display:none}
+.address{color:#076F2A;font-family:Arial;font-size:18px;}
+.doyouknow{display:none}
+.offer{width:380px; float:right;padding:10px;margin-top:-650px;}
+.callus{margin-left: 50px; margin-top:15px; color: #002E0F;font-style: italic;font-weight: bold;font-size: 20pt;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.imghappymowing{width:100%;height:300px;}
+.facebooktwitter{margin-left:300px;margin-top:110px;width:80px;}
+.footer{color:#006400;font-family:Arial ;font-size:16px;margin-top:2cm; margin-left: 100px;}
+.imgbbb{display:none}
+}
+
+

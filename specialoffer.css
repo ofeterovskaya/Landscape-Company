@@ -1,0 +1,33 @@
+.myliststyle{margin-top: -20px;}
+.mylist{display: inline;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.specialoffertext{width: 58%; margin-top:-750px;float:right;color:#114A23; font-family:cursive;font-size:18px;  }
+.facebooktwitter{float:right;}
+.happymowing-offer{width:40%;height:700px;}
+.footer{color:#006400;font-family:Arial ;font-size:16px;margin-top:1cm; text-align:center;}
+
+
+
+@media (max-width:768px){
+
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.happymowing-offer{width:40%;}
+.specialoffertext{width:50%;margin-top:-700px;color:#114A23; font-family:cursive;font-size:22px }
+.facebooktwitter{float:right;}
+.footer{color: #006400;font-family: Arial;font-size: 16px;margin-left: 50px;margin-top:50px;}
+
+}
+
+@media (max-width:480px){
+
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.happymowing-offer{display:none}
+.specialoffertext{width:100%;margin-top:-80px;color:#114A23; font-family:cursive;font-size:18px }
+.facebooktwitter{float:right;}
+.footer{color:#006400;font-family:Arial ;font-size:16px;margin-top:2cm;margin-left:0px; }
+
+}

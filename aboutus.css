@@ -1,0 +1,33 @@
+.myliststyle{margin-top: -20px;}
+.mylist{display: inline;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.imglawn{width:40%; margin:left; height:700px;}
+.aboutustext{ width: 58%; margin-top:-750px;float:right;color:#114A23; font-family:cursive;font-size:22px; }
+.facebooktwitter{float:right;}
+.footer{color:#006400;font-family:Arial ;font-size:16px;margin-top:1cm; margin-left: 700px;}
+
+
+
+
+@media (max-width:768px){
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.facebooktwitter{float:right;}
+.imglawn{width:40%; margin:left; height:700px;}
+.aboutustext{width:40%; color:#114A23; margin-top:-50px;margin:right;font-family:cursive;font-size:22px;margin-left:-150px; }
+.footer{color: #006400;font-family: Arial;font-size: 16px;margin-left: -100px;margin-top:10px;}
+
+}
+
+@media (max-width:480px){
+
+.mylist{display:list-item;background-color: #076F2A;color:green;}
+.mytext{color:white;text-align: left;padding: 3.4%;font-family:Arial Black;}
+.myliststyle{margin-top: -20px;margin-left:-20px;}
+.imglawn{display:none}
+.aboutustext{width:100%; margin-left: 50px;margin-top:-80px;color:#114A23; font-family:cursive;font-size:18px; }
+.facebooktwitter{float:right;}
+.footer{color:#006400;font-family:Arial ;font-size:16px; margin-left: 5px;margin-top:3cm; height: 10px;}
+
+}
